@@ -1,0 +1,64 @@
+#header {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+hr {
+  width: 100%;
+  border-width: 2px;
+  opacity: 80%;
+}
+
+#buttons {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 1 auto;
+  gap: 20px;
+}
+
+#metadata {
+  margin: 20px;
+  font-size: 20px;
+}
+
+#connectButton {
+  padding: 8px;
+  margin-left: auto;
+  background-color: #0276ff;
+  color: white;
+  border-radius: 8px;
+  border-style: none;
+  cursor: pointer;
+  font-size: 90%;
+  font-weight: bold;
+}
+
+#connectButton:active {
+  background-color: #006ae8;
+}
+#connectButton:hover {
+  background-color: #1c84ff;
+}
+
+#enterRaffle {
+  padding: 8px;
+  font-weight: bold;
+  color: white;
+  background-color: #0276ff;
+  border-style: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 90%;
+  margin-left: auto;
+}
+
+#enterRaffle:hover {
+  background-color: #1c84ff;
+}
+
+#enterRaffle:active {
+  background-color: #006ae8;
+}
